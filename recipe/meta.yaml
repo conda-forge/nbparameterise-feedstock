@@ -1,13 +1,13 @@
 {% set name = "nbparameterise" %}
-{% set version = "0.6" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bbdc59c1a3af4071479d34b184374874ae937256cb72be54ecf4f73494355dd4
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0cb314efc150810c3dc87c0bd5aae78f5d04ab76ce594189acc007fbdb608b2a
 
 build:
   noarch: python
